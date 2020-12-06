@@ -43,7 +43,7 @@ class abstract_mig_network
 {
 public:
 #pragma region Types and constructors
-  static constexpr auto min_fanin_size = /* TODO */;
+  static constexpr auto min_fanin_size = 1u; //TODO
   static constexpr auto max_fanin_size = std::numeric_limits<uint32_t>::max();
 
   using base_type = abstract_mig_network;
